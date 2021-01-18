@@ -6,7 +6,7 @@ import Cors from 'cors'
 //creates instance
 const app = express();
 const port = process.env.PORT || 8001
-const db_password = "mVTCuaphEVv66BsP"
+const db_password = "0A3bhALmndZrta5j"
 const db_name = `tinderdb`
 const connection_url = `mongodb+srv://admin:${db_password}@cluster0.ip0nv.mongodb.net/${db_name}?retryWrites=true&w=majority`
 // const connection_url = `mongodb+srv://admin:mVTCuaphEVv66BsP@cluster0.ip0nv.mongodb.net/tinderdb?retryWrites=true&w=majority`
